@@ -15,12 +15,25 @@ nav {
 body {
     background-color: #2787AF;
 }
-p {
+#txt1 {
 position: absolute;
 width: 60%;
 height: 40%;
 left: 20%;
 top: 30%;
+
+font-family: Roboto Mono;
+font-style: normal;
+font-size: 1.5em;
+line-height: 1.75em;
+color: #FFFFFF;
+}
+#txt2 {
+position: absolute;
+width: 60%;
+height: 35%;
+left: 20%;
+top: 143%;
 
 font-family: Roboto Mono;
 font-style: normal;
@@ -40,15 +53,22 @@ top: 80%;
 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-#submit {
+#forum {
 position: absolute;
 width: 50%;
 height: 7.5%;
 left: 25%;
-top: 180%;
+top: 165%;
 color:#000000;
 background-color:#c4c4c4;
 
 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+#lugge {
+    position: absolute;
+    top: 107.5%;
+    width: 40%;
+    left: 30%;
+    height: 32%;
 }
