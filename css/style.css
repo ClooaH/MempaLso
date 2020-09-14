@@ -15,6 +15,14 @@ nav {
 body {
     background-color: #2787AF;
 }
+p {
+    color:#FFFFFF;
+}
+button {
+position: absolute;
+width: 50%;
+height: 7.5%;
+}
 #txt1 {
 position: absolute;
 width: 60%;
@@ -26,49 +34,55 @@ font-family: Roboto Mono;
 font-style: normal;
 font-size: 1.5em;
 line-height: 1.75em;
-color: #FFFFFF;
 }
 #txt2 {
 position: absolute;
 width: 60%;
 height: 35%;
 left: 20%;
-top: 143%;
+top: 141.5%;
 
 font-family: Roboto Mono;
 font-style: normal;
 font-size: 1.5em;
 line-height: 1.75em;
-color: #FFFFFF;
 }
 #learnMore {
-position: absolute;
-width: 50%;
-height: 7.5%;
-color: #000000;
-background-color: #C4C4C4;
-left: 25%;
 top: 80%;
-
+left: 25%;
+color:#000000;
+background-color:#c4c4c4;
 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-#forum {
-position: absolute;
-width: 50%;
-height: 7.5%;
-left: 25%;
+#forumbtn {
 top: 165%;
+left: 25%;
 color:#000000;
 background-color:#c4c4c4;
-
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+#subbtn {
+top: 210%;
+left: 15%;
+color:#000000;
+background-color:#c4c4c4;
 box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 #lugge {
     position: absolute;
-    top: 107.5%;
+    top: 105%;
     width: 40%;
     left: 30%;
     height: 32%;
+}
+form {
+    position: absolute;
+    top: 200%;
+    left: 15%;
+}
+#emailHelp {
+    color: white;
 }
