@@ -123,21 +123,20 @@ left: 15%;
   -webkit-user-select: none;
   user-select: none;
 }
-#menuToggle input
-{
-  display: block;
-  width: 40px;
-  height: 32px;
-  position: absolute;
-  top: -7px;
-  left: -5px;
-  
-  cursor: pointer;
-  
-  opacity: 0; /* hide this */
-  z-index: 2; /* and place it over the hamburger */
-  
-  -webkit-touch-callout: none;
+#menuToggle input {
+display: block;
+width: 40px;
+height: 32px;
+position: absolute;
+top: -7px;
+left: -5px;
+
+cursor: pointer;
+
+opacity: 0; /* hide this */
+z-index: 2; /* and place it over the hamburger */
+
+-webkit-touch-callout: none;
 }
 #menuToggle span
 {
@@ -147,7 +146,7 @@ left: 15%;
   margin-bottom: 5px;
   position: relative;
   
-  background: #cdcdcd;
+  background: #FFFFFF;
   border-radius: 3px;
   
   z-index: 1;
@@ -172,7 +171,7 @@ left: 15%;
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+  background: #FFFFFF;
 }
 #menuToggle input:checked ~ span:nth-last-child(3)
 {
@@ -196,7 +195,6 @@ left: 15%;
   background: #162C46;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
   
   transform-origin: 0% 0%;
   transform: translate(100%, 0);
@@ -204,15 +202,13 @@ left: 15%;
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
-#menu li
-{
-  padding: 12% 0;
-  font-size: 1.5em;
-}
+#menu li {
+padding: 12% 0;
+font-size: 1.5em;
 
-/*
- * And let's fade it in from the left
- */
+font-family: Roboto Mono;
+font-style: normal;
+}
 #menuToggle input:checked ~ ul
 {
   transform: scale(1.0, 1.0);
