@@ -15,8 +15,23 @@
         <nav class="navbar fixed-top">
             <div class="container">
                 <img src="img/logga.svg" alt="logga" style="height: 3em;">
-                <div class="centered"><h1 id="title">MempaLso</h1></div>
-                <img src="img/menu-white-18dp.svg" alt="logga" style="height: 2.5em;">
+                <h1 id="title">MempaLso</h1>
+                
+                <div id="menuToggle">
+                    <input type="checkbox">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                
+                    <ul id="menu">
+                        <a href="#"><li>Home</li></a>
+                        <a href="#"><li>About</li></a>
+                        <a href="#"><li>Info</li></a>
+                    </ul>
+                </div>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </nav>
 
@@ -43,11 +58,12 @@
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                 <small id="emailHelp" class="form-text text-light">We'll never share your email with anyone else.</small>
             </div>
+            <p id="pay">I'd pay:</p>
             <select class="custom-select my-1 mr-sm-2 w-50" id="inlineFormCustomSelectPref">
                 <option selected>Choose...</option>
-                <option value="1">200</option>
-                <option value="2">300</option>
-                <option value="3">400</option>
+                <option value="1">100kr</option>
+                <option value="2">200kr</option>
+                <option value="3">300kr</option>
             </select>
         </form>
 
