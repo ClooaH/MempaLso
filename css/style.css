@@ -24,6 +24,10 @@ p {
 a {
     color: #FFFFFF;
 }
+a:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
 button {
 position: absolute;
 width: 50%;
