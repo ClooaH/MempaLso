@@ -18,6 +18,8 @@ body {
 }
 p {
     color:#FFFFFF;
+    font-family: Roboto Mono;
+    font-style: normal;
 }
 a {
     color: #FFFFFF;
@@ -154,7 +156,6 @@ z-index: 2; /* and place it over the hamburger */
   transform-origin: 4px 0px;
   
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
               opacity 0.55s ease;
 }
 
@@ -201,7 +202,6 @@ z-index: 2; /* and place it over the hamburger */
   
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
-
 #menu li {
 padding: 12% 0;
 font-size: 1.5em;
