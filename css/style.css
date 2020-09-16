@@ -56,9 +56,9 @@ line-height: 1.75em;
 #txt3 {
 position: absolute;
 width: 60%;
-height: 50%;
+height: 55%;
 left: 20%;
-top: 290%;
+top: 285%;
 
 font-family: Roboto Mono;
 font-style: normal;
@@ -203,7 +203,10 @@ z-index: 2; /* and place it over the hamburger */
   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 #menu li {
+margin-left: -50px;
+background: #3B53A8;
 padding: 12% 0;
+margin-top: 4%;
 font-size: 1.5em;
 
 font-family: Roboto Mono;
@@ -213,4 +216,8 @@ font-style: normal;
 {
   transform: scale(1.0, 1.0);
   opacity: 1;
+}
+#icon {
+margin-left: 15%;
+margin-right: 5%;
 }
