@@ -11,8 +11,8 @@ nav {
   background-color: #162C46;
 }
 
-.navbar-brand {
-font-size: 2.5em;
+.nav-link {
+font-size: 1.5em;
 }
 
 p {
@@ -24,7 +24,7 @@ padding-top: 12em;
 }
 
 #logo {
-  max-width: 20%;
+  max-width: 100px;
   margin-right: 0;
 }
 
