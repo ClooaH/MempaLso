@@ -19,6 +19,11 @@ p {
   font-size: 1.5em;
 }
 
+.desktop-m {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
 .padding-top {
 padding-top: 12em;
 }
@@ -46,7 +51,7 @@ padding-bottom: 2.5%;
 {
 display: block;
 position: absolute;
-top: 32px;
+top: 40%;
 right: 30px;
 
 z-index: 1;
@@ -119,7 +124,7 @@ position: absolute;
 width: 430px;
 margin: -100px 0 0 0;
 padding: 50px;
-padding-top: 125px;
+padding-top: 118px;
 right: -100px;
 
 background: #162C46;
