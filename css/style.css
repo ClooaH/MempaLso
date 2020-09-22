@@ -42,8 +42,6 @@ a:hover {
 }
 
 .menu-link {
-height: 2em;
-padding-right: 5%;
 padding-bottom: 2.5%;
 }
 
@@ -154,4 +152,11 @@ opacity: 1;
 #icon {
 margin-left: 15%;
 margin-right: 5%;
+}
+
+@media (max-width: 599px) {
+  .desktop-m {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
